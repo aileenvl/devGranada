@@ -1,0 +1,88 @@
+#chart-demo {
+    height: 440px;
+    width: 100%;
+}
+
+.title-spark {
+  padding-top: 40px;
+}
+.demo-table {
+    margin-top: 80px;
+    width: 100%;
+    border: 1px solid #c2c2c2;
+    border-collapse: collapse;
+}
+
+.demo-table th,
+.demo-table td {
+    font-weight: 400;
+    width: 200px;
+    padding: 25px 10px 5px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.demo-table th {
+    padding: 25px 15px 20px 15px;
+    border: 1px solid #c2c2c2;
+}
+
+.demo-table tr:nth-child(2) td {
+    border-top: 1px solid #c2c2c2;
+}
+
+.demo-table td:first-of-type {
+    border-left: 1px solid #c2c2c2;
+}
+
+.demo-table .sparkline {
+    width: 200px;
+    height: 30px;
+}
+
+.form > div {
+    display: inline-block;
+}
+
+.form > div:first-child {
+    width: 420px;
+}
+
+.label {
+    font-size: 22px;
+}
+
+#product-details {
+    margin-top: 20px;
+    vertical-align: top;
+    width: 400px;
+}
+
+#product-details > img {
+    display: none;
+    width: 400px;
+}
+
+#product-details > .name {
+    text-align: center;
+    font-size: 20px;
+}
+
+#product-details > .price {
+    text-align: center;
+    font-size: 24px;
+}
+
+.dark #product-details > div {
+    color: #f0f0f0;
+}
+
+.options {
+    padding-top: 5px;
+    margin-left: 40px;
+    width: 300px;
+    vertical-align: top;
+}
+
+.options > div {
+    margin-top: 25px;
+}
